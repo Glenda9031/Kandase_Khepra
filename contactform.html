@@ -8,6 +8,127 @@
     <title>Kandase Khepra Natural Hair Beauty Salon</title>
   </head>
   <body>
-
+    <article id="contactform">
+      <h2>Contact Me</h2><br>
+      <p>I'd really like to hear from you!</p>
+      <br>
+        <form action="kandase@live.com/get" method="get">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <br>
+            <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required autofocus>
+              </p>
+              <br>
+              <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+              </p>
+              <br>
+              <p>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"required>
+              </p>
+              <br>
+              <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="username@domain.tld" required>
+              </p>
+            </fieldset>
+              <br>
+            <fieldset>
+            <legend>Locs</legend>
+              <p>
+                <input type="radio" name="locs" id="sisterLocs" value="sisterLocs">
+                <label for="sisterLocs">Sister Locs</label>
+              </p>
+              <br>
+              <p>
+                <input type="radio" name="locs" id="traditionalLocs" value="traditionalLocs">
+                <label for="traditionalLocs">Traditional Locs</label>
+              </p>
+            </fieldset>
+            <br>
+              <fieldset>
+              <legend>Twists/Braids</legend>
+                <p>
+                  <input type="checkbox" name="twistsBraids" id="twistsBraids" value="twistsBraids">
+                  <label for="twistsBraids">Two Strand Twists</label>
+                </p>
+                <br>
+                <p>
+                  <input type="checkbox" name="twistsBraids" id="twistsBraids" value="twistsBraids">
+                  <label for="passionTwists">Passion Twists</label>                </p>
+                </p>
+                <br>
+                <p>
+                  <input type="checkbox" name="twistsBraids" id="twistsBraids" value="twistsBraids">
+                  <label for="goddessBraids">Goddess Braids</label>                </p>
+                </p>
+                <br>
+                <p>
+                  <input type="checkbox" name="twistsBraids" id="twistsBraids" value="twistsBraids">
+                  <label for="triangleBoxBraids">Triangle Box Braids</label>                </p>
+                </p>
+                <br>
+                <p>
+                  <input type="checkbox" name="twistsBraids" id="twistsBraids" value="twistsBraids">
+                  <label for="fulaniBraids">Fulani Braids</label>                </p>
+                </p>
+                <br>
+                <p>
+                  <input type="checkbox" name="twistsBraids" id="twistsBraids" value="twistsBraids">
+                  <label for="lemonadeBraids">Lemonade Braids</label>                </p>
+                </p>
+                <br>
+                <p>
+                  <input type="checkbox" name="twistsBraids" id="twistsBraids" value="twistsBraids">
+                  <label for="spiralendBraids">Spiral End Braids</label>                </p>
+                </p>
+                <br>
+                <p>
+                  <input type="checkbox" name="twistsBraids" id="twistsBraids" value="twistsBraids">
+                  <label for="knotlessBraids">Knotless Braids</label>                </p>
+                </p>
+                <br>
+                <p>
+                  <input type="checkbox" name="twistsBraids" id="twistsBraids" value="twistsBraids">
+                  <label for="braidedPonytail">Braided Ponytail</label>                </p>
+                </p>
+                <br>
+              </fieldset>
+              <fieldset>
+            <legend>Natural Hair Care</legend>
+            <br>
+              <p>
+                <input type="checkbox" name="care" id="retightening" value="retightening">
+                <label for="retightening">Retightening</label>
+              </p>
+              <br>
+                <p>
+                <input type="checkbox" name="care" id="washCondition" value="washCondition">
+                <label for="washCondition">Wash and Condition</label>
+              </p>
+              <br>
+                <p>
+                <input type="checkbox" name="care" id="other" value="other">
+                <label for="other">Other</label>
+              </p>
+            </fieldset>
+            <br>
+          <fieldset>
+            <legend>Send me a note</legend>
+            <p>
+              <label for="message">Your message:</label>
+              <br>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here"></textarea>
+            </p>
+          </fieldset>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </article>
  </body>
 </html>  
