@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
 
 :root {
   --background: rgba(85, 214, 170, .85);
@@ -10,8 +10,58 @@
 
 body {
   width: 100%;
-  background-color: #fff;
-  font-family: "Inter", sans-serif;
+  background-color: #ccccff;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
 
+h2, h3 {
+  text-align: center;
+}
+
+.submission-form {
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.labelOne {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+}
+
+input, textarea {
+  display: block;
+  padding: .70rem;
+  width: 75%;
+  border: 2px solid #4d4dff;
+  border-radius: 5px;
+}
+
+legend {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#sendBtn {
+  border: 0;
+  background: #9999ff;
+  padding: .5rem;
+  color: #000;
+  margin: 0 auto;
+  width: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 5s background ease-in-out;
+}
+
+#sendBtn:hover {
+  background: #ccccff;
+  color: #fff;
+}
