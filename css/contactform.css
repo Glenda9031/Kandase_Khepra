@@ -65,3 +65,38 @@ legend {
   background: #ccccff;
   color: #fff;
 }
+
+@media only screen and (max-width: 768px) {
+  .submission-form {
+    max-width: 500px;
+  }
+  
+  .labelOne {
+    font-size: .75rem;
+  }
+  input, textarea {
+    width: 50%;
+  }
+  
+  legend {
+    font-size: .75rem;
+  }
+  
+    }
+
+@media only screen and (max-width: 643px) {
+  .submission-form {
+    max-width: 400px;
+  }
+  
+  .labelOne {
+    font-size: .60rem;
+  }
+  input, textarea {
+    width: 40%;
+  }
+  
+  legend {
+    font-size: .65rem;
+  }
+}  

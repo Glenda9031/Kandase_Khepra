@@ -5,6 +5,9 @@ mport url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&
 }
 
 *, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
@@ -15,15 +18,102 @@ body {
   font-weight: 400;
 }
 
-img {
-    display: block;
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    margin: 0px auto;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
 }
 
-button {
-  display: block;
-  margin: 5px auto;
+.container .heading {
+  width: 50%;
+  padding-bottom: 50px;
 }
+
+.container .heading h1 {
+  font-weight: 900;
+  border-bottom: 3px solid #222;
+  padding-bottom: 10px;
+}
+
+.container .heading h1 span {
+  font-weight: 400;  
+}
+
+.container .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .box .sisterLocs {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .sisterLocs img {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container .box .traditionalLocs {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .traditionalLocs img {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container .box .braidsTwists {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .braidsTwists img {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container .btn {
+  display: block;
+  width: 15%;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 5%;
+  background: rgba(128, 128, 255, .85);
+  text-transform: uppercase;
+
+  .container .btn:hover {
+    background-color: #ccccff;
+    color: #fff;
+  }
+
+@media only screen and (max-width: 768px) {
+  .container .box {
+    flex-direction: column;
+  }
+  .container .box .sisterLocs {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 643px) {
+  .container .heading {
+    width: 100%;
+  }
+  
+  .container .heading h1 {
+    font-size: 1em;
+  }
+}  
+  
