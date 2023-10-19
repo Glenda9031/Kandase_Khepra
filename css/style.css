@@ -14,7 +14,7 @@
 
 body {
   width: 100%;
-  background: #ccccff;
+  background: #000;
   font-weight: 400;
 }
 
@@ -72,7 +72,7 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   width: 100%;
-  background: rgba(128, 128, 255, .85);
+  background: #000;
 }
   
   .wrapper img {
@@ -92,7 +92,7 @@ body {
     font-weight: 700;
     font-size: 30px;
     text-align: center;
-    background: rgba(128, 128, 255, .85);
+    background: #000;
 
   }
 
@@ -100,13 +100,13 @@ body {
     font-size: 22px;
     width: 33%;
     color: #fff;
-    background: rgba(128, 128, 255, .85);
+    background: #000;
   }
 
 .text-box {
     color: #fff;
     width: 75%;  
-    background: rgba(128, 128, 255, .85);
+    background: #000;
     padding-top: 25px;
   }
 
@@ -114,7 +114,7 @@ body {
     font-size: 1rem;
     text-align: left;
     margin-right: 25px;
-    background: rgba(128, 128, 255, .85);
+    background: #000;
   }
 
   .container {
@@ -124,7 +124,7 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     width: 100%;
-    background: rgba(128, 128, 255, .85);
+    background: #000;
   }
     
     .container img {
@@ -143,14 +143,14 @@ body {
       color: #fff;
       font-size: 30px;
       text-align: center;
-      background: rgba(128, 128, 255, .85);
+      background: #000;
     }
   
     h3 {
       font-size: 22px;
       width: 33%;
       color: #fff;
-      background: rgba(128, 128, 255, .85);
+      background: #000;
     }
   
   
